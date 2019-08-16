@@ -24,7 +24,6 @@ p2 {
 }
 
 footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -64,7 +63,6 @@ nav li {
   display: inline-block;
   margin-left: 120px;
   padding-top: 55px;
-
   position: relative;
 }
 
@@ -76,14 +74,14 @@ nav a {
 }
 
 nav a:hover {
-  color: #000;
+  color: #FFF;
 }
 
 nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #444;
+  background-color: #fff;
   position: absolute;
   top: 0;
   width: 0%;
@@ -92,18 +90,6 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
-}
-
-.txt-img {
-    display: block;
-    position: absolute;
-    color: #222;
-    left: 0;
-    right: 0;
-    top: 60%;
-    text-align: left;
-    margin: -10px auto;
-    width: 95%;
 }
 
 .logo {
