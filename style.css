@@ -6,7 +6,6 @@ h2 {
 }
 
 ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -15,12 +14,6 @@ p {
   font: inherit;
   font-weight: bold;
   font-size: 40px;
-}
-
-p2 {
-  font: inherit;
-  font-size: 16px;
-  color: #FFF;
 }
 
 footer {
@@ -97,20 +90,34 @@ nav a:hover::before {
   padding: 1px 1;
 }
 
+.sobre {
+  font-size: 18px;
+}
+
+.alunos {
+  font: inherit;
+  font-size: 16px;
+  color: #FFF;
+  margin-left: 10px;
+}
+
 .container {
   width: 80%;
   height: auto;
   margin: 0 auto;
 }
-.caixa-info {
-  background: #FFF;
-}
+
 .galeria {
+  margin-top: 1px;
   border: 2px solid #ccc;
 }
 
 .galeria:hover {
   border: 2px solid #777;
+}
+
+.logo:hover {
+  border: 1px solid #777;
 }
 
 .galeria img {
@@ -128,6 +135,24 @@ nav a:hover::before {
   padding: 1 5px;
   float: left;
   width: 24.99999%;
+}
+
+.sobre p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFF;
+  margin-bottom: 3px;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+.sobre h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-right: 75px;
+  margin-left: 75px;
+  color: #FFF;
 }
 
 @media only screen and (max-width: 700px) {
