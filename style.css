@@ -87,11 +87,7 @@ nav a:hover::before {
 
 .logo {
   float: left;
-  padding: 1px 1;
-}
-
-.sobre {
-  font-size: 18px;
+  padding: 1px;
 }
 
 .alunos {
@@ -138,7 +134,8 @@ nav a:hover::before {
 }
 
 .sobre p {
-  font-size: 14px;
+  text-align: justify;
+  font-size: 16px;
   line-height: 25px;
   color: #FFF;
   margin-bottom: 3px;
